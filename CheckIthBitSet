@@ -1,0 +1,7 @@
+boolean CheckIthBitSet (int N)
+{
+    if( N & (1 << i) )
+        return true;
+    else
+        return false;
+}
